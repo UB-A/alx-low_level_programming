@@ -11,9 +11,9 @@
  */
 int main(void)
 {
-	int l = 0;
+	int l;
 
-	for (l = 0; l < 10; l++)
+	for (l = 0; l <= 9; l++)
 	putchar(l);
 	putchar('\n');
 	/* your code goes there */
