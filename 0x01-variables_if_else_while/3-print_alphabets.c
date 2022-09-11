@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -10,11 +11,19 @@
  */
 int main(void)
 {
-	char r = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[random() % 26];
+	char l = 'a';
 
-	char o = tolower(r);
+	char u = 'A';
 
-	putchar(o);
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		putchar(l);
+	}
+	for (u = 'A'; u <= 'Z'; u++)
+	{
+		putchar(u);
+	}
+	putchar('\n');
 	/* your code goes there */
 	return (0);
 }
