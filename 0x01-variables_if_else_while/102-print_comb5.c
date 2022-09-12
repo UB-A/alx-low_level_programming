@@ -15,8 +15,13 @@ int main(void)
 		{
 			for (i = d; i <= 57; i++)
 			{
-				for (z = j + 1; z <= 57 ; z++)
+				z = 48;
+				while (z <= 57)
 				{
+					if (d == i && j == z)
+					{
+						z++;
+					}
 					putchar(d);
 					putchar(j);
 					putchar(' ');
@@ -27,6 +32,7 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+					z++;
 				}
 			}
 		}
