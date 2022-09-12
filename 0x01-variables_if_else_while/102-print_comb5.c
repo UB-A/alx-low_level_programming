@@ -18,9 +18,9 @@ int main(void)
 				z = 48;
 				while (z <= 57)
 				{
-					if (d == i && j == z)
+					if (d == i && z <= j)
 					{
-						z++;
+						z = j + 1;
 					}
 					putchar(d);
 					putchar(j);
