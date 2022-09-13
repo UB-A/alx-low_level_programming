@@ -8,5 +8,6 @@ int _islower(int c);
 int main(void);
 int _isalpha(int c);
 int print_sign(int n);
+int _abs(int ab);
 
 #endif /* MAIN_H */
