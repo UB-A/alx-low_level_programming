@@ -1,12 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
-*main - Entry point
-*Return: Always 0 (Success)
+*_isalpha - a function that checks for alphabetic character
+* @c: single letter input
+*
+*Return: 1 if c is a letter (lower or uppercase), 0 otherwise
 */
 
-int main(void)
+int _isalpha(int c)
 {
-	return(0);
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
+		return (1);
+	else
+		return (0);
+
 }
