@@ -10,7 +10,7 @@ int main(void)
 
 	i = 0;
 	j = 1;
-	for (count == 0; count < 50; count++)
+	for (count == 0; count <= 49; count++)
 	{
 		k = i + j;
 		i = j;
